@@ -2472,6 +2472,10 @@ body {
     line-height: inherit;
     padding: 0 1.25rem;
     text-decoration: none; }
+.logo:hover
+{
+  cursor:pointer;
+}
   #header > nav > a {
     color: inherit;
     display: inline-block;
