@@ -1888,7 +1888,7 @@ ul.icons {
         #banner input[type="button"].primary:hover:active,
         #banner button.primary:hover:active,
         #banner .button.primary:hover:active {
-          background-color: #b71824; }
+          background-color: #FFCC66; }
   #banner label {
     color: #ffffff; }
   #banner input[type="text"],
@@ -2079,7 +2079,7 @@ ul.icons {
 ;
   color: rgba(255, 255, 255, 0.75);
   background-attachment: fixed;
-  background-image: linear-gradient(rgba(206, 27, 40, 0.25), rgba(206, 27, 40, 0.25)), url(../../images/cta01.jpg);
+  background-image: linear-gradient(rgba(255, 204, 102, 0.25), rgba(255, 204, 102, 0.25)), url(../../images/cta01.jpg);
   background-position: bottom;
   background-repeat: no-repeat;
   background-size: cover;
