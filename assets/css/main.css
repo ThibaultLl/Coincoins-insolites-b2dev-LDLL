@@ -2882,6 +2882,7 @@ body.is-menu-visible #menu {
 {
   width: 15%;
   height: auto;
+  min-width: 7rem;
  /* margin-top: -13%; */
 }
 
