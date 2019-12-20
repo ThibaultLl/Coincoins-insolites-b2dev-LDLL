@@ -41,7 +41,7 @@
 		<hr />
 
 	
-			<form method="post" action="#">
+			<form name="contact2" method="POST" data-netlify="true">
 				<div class="row gtr-uniform">
 				<div class="col-6 col-12-xsmall">
 					<input type="text" name="nom" id="nom" placeholder="Nom">
@@ -61,10 +61,10 @@
 				</div>
 				<br/>
 				<div class="col-12">
-					<textarea name="textarea" id="textarea" placeholder="Votre message"></textarea>
+					<label>Message: <textarea name="message" id="textarea" placeholder="Votre message"></textarea></label>
 				</div>
 				<br/>
-					<input type="Submit" value="Envoyer" name="formsend" id="formsend" class="primary">
+					<button type="Submit"class="primary">Envoyer</button>
 			</form>
 			</section>
 
