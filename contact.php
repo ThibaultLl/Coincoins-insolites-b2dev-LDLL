@@ -1,8 +1,8 @@
 <!DOCTYPE HTML>
-
 <html>
 	<head>
-		<title>Contact - Coin coin-insolite</title>
+		<link rel='icon' href='images/icon_coincoin.ico' type='image/x-icon'/ >
+		<title>Coincoins Insolites</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<meta name="description" content="" />
@@ -13,90 +13,76 @@
 
 		<!-- Header -->
 			<header id="header">
-				<a class="logo" href="index.html">Insert logo here</a>
+				<img class="logo" src="images/icon_coincoin.png" alt="l'icone de coincoins insolites en haut à gauche" onclick="window.location.href='index.html'"/>
 				<nav>
 					<a href="#menu">Menu</a>
 				</nav>
 			</header>
 
-		<!-- Nav -->
-			<nav id="menu">
-				<ul class="links">
-					<li><a href="index.html">Accueil</a></li>
-					<li><a href="elements.html">Elements</a></li>
-					<li><a href="generic.html">Generic</a></li>
-					<li><a href="contact.html">contact</a></li>
-				</ul>
-			</nav>
-
 		<!-- Heading -->
-			<div id="heading" >
-				<h1>Coin Coin-insolite</h1>
-			</div>
+		<div id="heading" >
+			<h1>Formulaire de contact :</h1>
+		</div>
+		<section>
+		<br/>
+		<div class="textecentre">
+		<p>Si vous avez un problème ou simplement une question, vous pouvez nous contacter en remplissant ce formulaire. Nous traiterons votre demande au plus vite ! </p>
+		</div>
+		<hr />
 
-		<!-- Main -->
-			<section id="main" class="wrapper">
-				<div class="inner">
-					<div class="content">
-						<header>
-							<h2>Feugiat consequat</h2>
-						</header>
-						<p>Lorem ipsum dolor sit accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Magna et cursus lorem faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod tempus. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac sed amet praesent. Nunc lacinia ante nunc ac gravida lorem ipsum dolor sit amet dolor feugiat consequat. </p>
-						<p>Lorem ipsum dolor sit accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Magna et cursus lorem faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod tempus. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac sed amet praesent. Nunc lacinia ante nunc ac gravida lorem ipsum dolor sit amet dolor feugiat consequat. </p>
-						<hr />
-						<form method="post" action="#">
-							<div class="row gtr-uniform">
-								<div class="col-6 col-12-xsmall">
-									<input type="text" name="nom" id="nom" placeholder="Nom">
-								</div>
-								<div class="col-6 col-12-xsmall">
-									<input type="text" name="prenom" id="prenom" placeholder="Prenom">
-								</div>
-							</div>
-							<br/>
-							<div class="row gtr-uniform">
-								<div class="col-6 col-12-xsmall">
-									<input type="email" name="email" id="email" placeholder="Email">
-								</div>
-								<div class="col-6 col-12-xsmall">
-									<input type="text" name="objet" id="objet" placeholder="Objet">
-								</div>
-							</div>
-							<br/>
-							<div class="col-12">
-								<textarea name="textarea" id="textarea" placeholder="Votre message"></textarea>
-							</div>
-							<br/>
-							<input type="Submit" value="Envoyer" name="formsend" id="formsend" class="primary">
-						</form>
-					</div>
+	
+			<form method="post" action="#">
+				<div class="row gtr-uniform">
+				<div class="col-6 col-12-xsmall">
+					<input type="text" name="nom" id="nom" placeholder="Nom">
 				</div>
+				<div class="col-6 col-12-xsmall">
+					<input type="text" name="prenom" id="prenom" placeholder="Prenom">
+				</div>
+				</div>
+				<br/>
+				<div class="row gtr-uniform">
+				<div class="col-6 col-12-xsmall">
+					<input type="email" name="email" id="email" placeholder="Email">
+				</div>
+				<div class="col-6 col-12-xsmall">
+					<input type="text" name="objet" id="objet" placeholder="Objet">
+				</div>
+				</div>
+				<br/>
+				<div class="col-12">
+					<textarea name="textarea" id="textarea" placeholder="Votre message"></textarea>
+				</div>
+				<br/>
+					<input type="Submit" value="Envoyer" name="formsend" id="formsend" class="primary">
+			</form>
 			</section>
 
 		<!-- Footer -->
-			<footer id="footer">
+		<footer id="footer">
 				<div class="inner">
 					<div class="content">
 						<section>
-							<h3>Accumsan montes viverra</h3>
-							<p>Nunc lacinia ante nunc ac lobortis. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus ornare mi ut ante amet placerat aliquet. Volutpat eu sed ante lacinia sapien lorem accumsan varius montes viverra nibh in adipiscing. Lorem ipsum dolor vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing sed feugiat eu faucibus. Integer ac sed amet praesent. Nunc lacinia ante nunc ac gravida.</p>
+							<h3>Notre société :</h3>
+							<p>Nous sommes un groupe de quatre élèves de Campus Academy Nantes, et nous effectuons un projet du nom de "coins coins insolites" consistant à créer une application de partage de lieux insolites et un site web la présentant.</p>
 						</section>
 						<section>
-							<h4>Sem turpis amet semper</h4>
+							<h4>Vous pouvez aussi voir :</h4>
 							<ul class="alt">
-								<li><a href="#">Dolor pulvinar sed etiam.</a></li>
-								<li><a href="#">Etiam vel lorem sed amet.</a></li>
-								<li><a href="#">Felis enim feugiat viverra.</a></li>
-								<li><a href="#">Dolor pulvinar magna etiam.</a></li>
+								<li><a href="index.html">Home</a></li>
+								<li><a href="contact.html">Contact</a></li>
+								<li><a href="lieux.html">Lieux</a></li>
+								<li><a href="info.html">Infos</a></li>
+								<li><a href="indexANG.html">ENGLISH</a></li>
 							</ul>
 						</section>
 						<section>
-							<h4>Magna sed ipsum</h4>
+							<h4>Nos réseaux : </h4>	
 							<ul class="plain">
 								<li><a href="#"><i class="icon fa-twitter">&nbsp;</i>Twitter</a></li>
 								<li><a href="#"><i class="icon fa-facebook">&nbsp;</i>Facebook</a></li>
 								<li><a href="#"><i class="icon fa-instagram">&nbsp;</i>Instagram</a></li>
-								<li><a href="#"><i class="icon fa-github">&nbsp;</i>Github</a></li>
+								<li><a href="https://github.com/ThibaultLl/Coincoins-insolites-b2dev-LDLL"><i class="icon fa-github">&nbsp;</i>Github</a></li>
 							</ul>
 						</section>
 					</div>
