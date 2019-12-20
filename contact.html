@@ -41,7 +41,7 @@
 		<hr />
 
 	
-			<form method="post" action="#">
+			<form name="contact" method="POST" data-netlify="true">
 				<div class="row gtr-uniform">
 				<div class="col-6 col-12-xsmall">
 					<input type="text" name="nom" id="nom" placeholder="Nom">
@@ -109,24 +109,15 @@
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
 
+<script type="jquery">
+$("#my-form").submit(function(e) {
+  e.preventDefault();
 
-
-			<?php
-			mysql_connect("localhost","root") or die ("Erreur !");
-			mysql_select_db("coinscoinsforms") or die("BDD introuvable !");
-				if(isset($_POST['formsend'])){
-					$nom = $_POST['nom'];
-					$prenom = $_POST['prenom'];
-					$email = $_POST['email'];
-					$objet = $_POST['objet'];
-					$textarea = $_POST['textarea'];
-				if(!empty($nom) AND !empty($prenom) AND !empty($email) AND !empty($objet) AND !empty($textarea)){
-					mysql_querry('INSERT INTO coinscoinsforms (nom, prenom, email, objet, textarea) VALUES ("'.$nom.'","'.$prenom.'","'.$email.'","'.$objet.'","'.$textarea.'")')or die('Erreur: '.mysql_error());
-					echo "Votre formulaire a bien été transmit !";
-				}
-				else echo "Remplissez tous les champs !";
-				}
-			?>
+  var $form = $(this);
+  $.post($form.attr("action"), $form.serialize()).then(function() {
+    alert("Thank you!");
+  });
+});</script>
 
 	</body>
 </html>
