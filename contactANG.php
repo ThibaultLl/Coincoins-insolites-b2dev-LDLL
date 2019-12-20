@@ -23,20 +23,20 @@
 				<ul class="links">
 					<li><a href="index.html">Home</a></li>
 					<li><a href="contact.php">Contact</a></li>
-					<li><a href="lieux.html">Lieux</a></li>
+					<li><a href="lieux.html">Places</a></li>
 					<li><a href="info.html">Infos</a></li>
-					<li><a href="indexANG.html">ENGLISH</a></li>
+					<li><a href="indexANG.html">FRENCH</a></li>
 				</ul>
 			</nav>
 
 		<!-- Heading -->
 		<div id="heading" >
-			<h1>Formulaire de contact :</h1>
+			<h1>Contact form :</h1>
 		</div>
 		<section>
 		<br/>
 		<div class="textecentre">
-		<p>Si vous avez un problème ou simplement une question, vous pouvez nous contacter en remplissant ce formulaire. Nous traiterons votre demande au plus vite ! </p>
+		<p>If you got a problem or any question, you can send us a message by filling this form, we will answer ASAP !</p>
 		</div>
 		<hr />
 
@@ -73,21 +73,21 @@
 				<div class="inner">
 					<div class="content">
 						<section>
-							<h3>Notre société :</h3>
-							<p>Nous sommes un groupe de quatre élèves de Campus Academy Nantes, et nous effectuons un projet du nom de "coins coins insolites" consistant à créer une application de partage de lieux insolites et un site web la présentant.</p>
+							<h3>Our company :</h3>
+							<p>We are a group of four students from Campus Academy Nantes, and we are carrying out a project called "Coincoins insolite" consisting of creating an application of sharing of unusual places and a website presenting it.</p>
 						</section>
 						<section>
-							<h4>Vous pouvez aussi voir :</h4>
+							<h4>You can also see :</h4>
 							<ul class="alt">
 								<li><a href="index.html">Home</a></li>
 								<li><a href="contact.html">Contact</a></li>
-								<li><a href="lieux.html">Lieux</a></li>
+								<li><a href="lieux.html">Places</a></li>
 								<li><a href="info.html">Infos</a></li>
-								<li><a href="indexANG.html">ENGLISH</a></li>
+								<li><a href="indexANG.html">FRENCH</a></li>
 							</ul>
 						</section>
 						<section>
-							<h4>Nos réseaux : </h4>	
+							<h4>Our networks : </h4>	
 							<ul class="plain">
 								<li><a href="#"><i class="icon fa-twitter">&nbsp;</i>Twitter</a></li>
 								<li><a href="#"><i class="icon fa-facebook">&nbsp;</i>Facebook</a></li>
