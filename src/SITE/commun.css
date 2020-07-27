@@ -1,0 +1,203 @@
+body{
+    background-color: #EDF2F4;
+    font-family: "Gill Sans", sans-serif;
+}
+
+.map
+{
+    margin-left:2%;
+}
+
+.logo
+{
+    width:30%;
+    margin-left:35%;
+    margin-bottom:4%;
+    margin-top:4%
+}
+
+.logoaut
+{
+    width:40%;
+    margin-left:30%;
+    margin-bottom:4%;
+    margin-top:10%
+}
+
+.boutonjaune
+{
+    display:block;
+    width:50%;
+    padding-top:2%;
+    padding-bottom:2%;
+    border:1px solid #FFCC66;
+    border-radius:10px ;
+    text-align:center;
+    background-color:#FFCC66;
+    color:black;
+    font-weight: bold;
+    margin-top:10%;
+    margin-left:25%;
+    box-shadow: 3px 2px 15px black;
+}
+.boutonjaune:hover
+{
+    cursor: pointer;
+}
+
+.boutonnoir
+{
+    display:block;
+    width:50%;
+    padding-top:2%;
+    padding-bottom:2%;
+    border:1px solid black;
+    border-radius:10px ;
+    text-align:center;
+    background-color:black;
+    color:white;
+    font-weight: bold;
+    margin-top:10%;
+    margin-left:25%;
+    box-shadow: 3px 2px 15px black;
+}
+.boutonnoir:hover
+{
+    cursor: pointer;
+}
+
+.textbold
+{
+    font-weight: bold;
+    text-align:center;
+    margin-top:10%;
+}
+
+.textcenter
+{
+    text-align: center;
+    margin-top:10%;
+}
+
+.photofix {
+    width:10%;
+    position:fixed;
+    top:1%;
+    right:25%;
+    z-index:0;
+}
+
+.skip
+{
+    color:#95989A;
+    position:fixed;
+    top:60%;
+    left:75%;
+    z-index:0;
+}
+
+.fleche
+{
+    vertical-align: middle;
+}
+
+.nostyle
+{
+    color:#95989A;
+    text-decoration: none;
+}
+
+.ecart
+{
+    margin-top:75%;
+}
+
+.ecart2
+{
+    margin-top:60%;
+}
+
+.ecart3
+{
+    margin-top:20%;
+}
+
+.ecart4
+{
+    margin-top:40%;
+}
+
+label{
+    margin-left:20%;
+    font-weight: bold;
+}
+
+.textnoir
+{
+    display:block;
+    width:60%;
+    padding-top:2%;
+    padding-bottom:2%;
+    border:1px solid black;
+    border-radius:7px ;
+    text-align:center;
+    background-color:white;
+    color:black;
+    font-weight: bold;
+    margin-top:1%;
+    margin-bottom:5%;
+    margin-left:20%;
+    box-shadow: 3px 2px 7px black;
+}
+
+.textjaune
+{
+    display:block;
+    width:60%;
+    padding-top:2%;
+    padding-bottom:2%;
+    border:1px solid #FFCC66;
+    border-radius:7px ;
+    text-align:center;
+    background-color:white;
+    color:black;
+    font-weight: bold;
+    margin-top:1%;
+    margin-bottom:5%;
+    margin-left:20%;
+    box-shadow: 3px 2px 7px #FFCC66;
+}
+
+.texttresbold
+{
+    font-weight: bold;
+    font-size:200%;
+    text-align:center;
+}
+
+.flechefix
+{
+    position:fixed;
+    top:20%;
+    left:5%;
+    z-index:0;
+}
+
+.boutonjaunedubas{
+
+    display:block;
+    width:50%;
+    padding-top:2%;
+    padding-bottom:2%;
+    border:1px solid #FFCC66;
+    border-radius:10px ;
+    text-align:center;
+    background-color:#FFCC66;
+    color:black;
+    font-weight: bold;
+    position:fixed;
+    bottom:10%;
+    left:25%;
+    z-index:0;
+    box-shadow: 3px 2px 15px black;
+}
