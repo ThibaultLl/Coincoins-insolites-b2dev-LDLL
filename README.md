@@ -20,3 +20,5 @@ Le projet consiste à créer une application afin que les utilisateurs puissent 
 
 Le projet est en grande partie réalisé par Lylian Morio. Les autres membres de ce groupe semblent avoir abandonné le projet.
  
+ Malheureusement, j'ai abandoné le projet, à la fin j'ai essayé de faire de mon mieux, mais se replonger dans la technologie du projet est déjà fastidieux, et en plus il fallait que je me replonge dans le projet ensuite.
+ 
